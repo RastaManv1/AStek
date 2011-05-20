@@ -1,0 +1,79 @@
+﻿<mockup version="1.0" skin="sketch" measuredW="433" measuredH="395" mockupW="403" mockupH="375">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::ButtonBar" x="30" y="20" w="403" h="29" measuredW="280" measuredH="31" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041F%u043E%u043B%u044C%u0437%u043E%u0432%u0430%u0442%u0435%u043B%u0438%2C%20%u0420%u0435%u0441%u0443%u0440%u0441%u044B%2C%20%u0416%u0443%u0440%u043D%u0430%u043B</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="104" w="181" h="-1" measuredW="53" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041B%u043E%u0433%u0438%u043D</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="232" w="181" h="-1" measuredW="109" measuredH="29" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>user@gmail.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="276" w="-1" h="-1" measuredW="181" measuredH="29" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u0412%u043E%u0436%u0434%u044C%20%u0412%u0430%u043B%u0435%u0440%u0438%u0439%20%u041F%u0430%u0432%u043B%u043E%u0432%u0438%u0447</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="84" y="105" w="-1" h="-1" measuredW="51" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041B%u043E%u0433%u0438%u043D%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="72" y="152" w="-1" h="-1" measuredW="60" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041F%u0430%u0440%u043E%u043B%u044C%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="151" w="181" h="-1" measuredW="77" measuredH="29" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*********</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="194" w="181" h="-1" measuredW="77" measuredH="29" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*********</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="30" y="200" w="-1" h="-1" measuredW="110" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041F%u043E%u0432%u0442%u043E%u0440%20%u043F%u0430%u0440%u043E%u043B%u044F%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="84" y="236" w="-1" h="-1" measuredW="51" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>e-mail%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="84" y="277" w="-1" h="-1" measuredW="52" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u0424.%u0418.%u041E.</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="149" y="367" w="181" h="28" measuredW="90" measuredH="28" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u0421%u043E%u0445%u0440%u0430%u043D%u0438%u0442%u044C</text>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="30" y="64" w="-1" h="-1" measuredW="310" measuredH="25" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041F%u043E%u043B%u044C%u0437%u043E%u0432%u0430%u0442%u0435%u043B%u0438%2C%20%u0420%u0435%u0434%u0430%u043A%u0442%u0438%u0440%u043E%u0432%u0430%u043D%u0438%u0435%20%u043F%u043E%u043B%u044C%u0437%u043E%u0432%u0430%u0442%u0435%u043B%u044F</text>
+      </controlProperties>
+    </control>
+    <control controlID="15" controlTypeID="com.balsamiq.mockups::ComboBox" x="149" y="320" w="181" h="-1" measuredW="91" measuredH="25" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u0420%u043E%u043B%u044C%20%u21161</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="94" y="319" w="-1" h="-1" measuredW="41" measuredH="25" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u0420%u043E%u043B%u044C%3A</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
