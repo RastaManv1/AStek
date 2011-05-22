@@ -185,4 +185,50 @@ public class RMCore
     {
         return DB.getInstance().query("DELETE FROM account WHERE ID="+Integer.toString(id)+";");
     }
+
+    /**
+     * Возвращает список ролей
+     * @return ArrayList
+     *
+     * Добавлен Андреем 22.05.2011 12:05
+     */
+    public ArrayList<HashMap> getRoleList()
+    {
+        try
+        {
+            if (!DB.getInstance().query("SELECT * FROM role;"))
+            {
+                return null;
+            }
+        } catch (SQLException ex)
+        {
+            return null;
+        }
+        return DB.getInstance().getResultList();
+    }
+
+    /**
+     * Возвращает учетную запись пользователя по имени и роли
+     * @param name String Строка с именем, не более 50 символ
+     * @param role String Строка с названием роли, не более 20 символ
+     * @return ArrayList
+     *
+     * Добавлен Андреем 22.05.2011 12:05
+     */
+    public ArrayList<HashMap> getAccountByNameAndRole(String name, String role)
+    {
+                try
+        {
+            if (!DB.getInstance()
+                    .query("SELECT COUNT(a.id) FROM account a, role r WHERE "
+                    + "a.name='"+name+"' AND a.role_id=r.id AND r.title='"+role+"';"))
+            {
+                return null;
+            }
+        } catch (SQLException ex)
+        {
+            return null;
+        }
+        return DB.getInstance().getResultList();
+    }
 }

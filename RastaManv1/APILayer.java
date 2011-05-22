@@ -159,4 +159,35 @@ public class APILayer {
             return false;
         }
     }
+
+    /**
+     * Возвращает список ролей
+     * @return ArrayList
+     *
+     * Добавлен Андреем 22.05.2011 12:05
+     */
+    public ArrayList<HashMap> getRoleList()
+    {
+        return RMCore.getInstance().getRoleList();
+    }
+
+    /**
+     * Возвращает учетную запись пользователя по имени и роли
+     * @param name String Строка с именем, не более 50 символ
+     * @param role String Строка с названием роли, не более 20 символ
+     * @return ArrayList
+     *
+     * Добавлен Андреем 22.05.2011 12:05
+     */
+    public ArrayList<HashMap> getAccountByNameAndRole(String name, String role)
+    {
+        Boolean nameFlag = validator.validateString(name, 50) && validator.hasSpecialChars(name);
+        Boolean roleFlag = validator.validateString(role, 20) && validator.hasSpecialChars(role);
+        if (nameFlag && roleFlag){
+            return RMCore.getInstance().getAccountByNameAndRole(name, role);
+        } else {
+            return null;
+        }
+    }
+
 }
